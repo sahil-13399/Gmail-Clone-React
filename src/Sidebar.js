@@ -24,7 +24,7 @@ function Sidebar() {
             <Button startIcon={<AddIcon fontSize="large" />} className="sidebar_compose" onClick = {() => dispatch(openSendMessage())}>
                 Compose
             </Button>
-            <SidebarOption Icon={InboxIcon} title = "Inbox" num = {34} selected = {false}/>
+            <SidebarOption Icon={InboxIcon} title = "Inbox" num = {34} selected = {true}/>
             <SidebarOption Icon={StarIcon} title = "Starred" num = {34} selected = {false}/>
             <SidebarOption Icon={AccessTimeIcon} title = "Snoozed" num = {34} selected = {false}/>
             <SidebarOption Icon={LabelImportantIcon} title = "Important" num = {34} selected = {false}/>
